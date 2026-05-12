@@ -17,13 +17,12 @@ export default function WelcomeScreen() {
     return () => clearTimeout(timer);
   }, []);
 
-  // ==========================================
   // GIAO DIỆN 1: MÀN HÌNH SPLASH (CẬP NHẬT NỀN ẢNH)
-  // ==========================================
+
   if (showSplash) {
     return (
       <ImageBackground 
-        // Thay 'nen-splash.png' bằng tên file ảnh nền bạn muốn dùng cho Splash
+     
         source={require('../assets/images/nen1.png')} 
         style={styles.splashContainer}
         resizeMode="cover"
@@ -42,18 +41,16 @@ export default function WelcomeScreen() {
     );
   }
 
-  // ==========================================
+
   // GIAO DIỆN 2: MÀN HÌNH ONBOARDING
-  // ==========================================
+
   return (
     <ImageBackground 
       source={require('../assets/images/nen3.png')} 
       style={styles.onboardingContainer}
       resizeMode="cover"
     >
-      {/* Thay View bằng LinearGradient.
-        Màu sẽ chuyển từ: trong suốt (trên cùng) -> đen mờ (giữa) -> đen đặc (dưới đáy)
-      */}
+      
       <LinearGradient
         colors={['transparent', 'rgba(0,0,0,0.6)', 'rgba(0,17,40,0.9)']} // Đáy là màu navy cực tối
         locations={[0.4, 0.7, 1]} // Bắt đầu tối từ 40% chiều cao màn hình đổ xuống
@@ -86,20 +83,17 @@ export default function WelcomeScreen() {
   );
 }
 
-// ==========================================
 // ĐỊNH DẠNG (STYLES)
-// ==========================================
+
 const styles = StyleSheet.create({
   splashContainer: {
     flex: 1,
-    // Không cần backgroundColor nữa vì đã có ảnh nền
     justifyContent: 'center',
     alignItems: 'center',
   },
   splashRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    // Thêm một chút đổ bóng cho cụm chữ/icon để nổi bật trên nền ảnh
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.8,
@@ -133,7 +127,6 @@ const styles = StyleSheet.create({
   bottomSection: {
     width: '100%',
     paddingHorizontal: 30,
-    // Đã tăng từ 60 lên 100 để đẩy toàn bộ nội dung lên cao hơn
     paddingBottom: 100, 
     alignItems: 'center',
   },
@@ -147,7 +140,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 45,
     marginBottom: 10,
-    // Thêm đổ bóng chữ để phát sáng nhẹ
     textShadowColor: 'rgba(255, 255, 255,0.5)',
     textShadowOffset: { width: 0, height: 0 },
     textShadowRadius: 10,
@@ -164,7 +156,6 @@ const styles = StyleSheet.create({
     paddingVertical: 18,
     borderRadius: 15,
     alignItems: 'center',
-    // Thêm đổ bóng cho nút
     shadowColor: '#4361EE',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.4,
