@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.machmach.galaxyvibes_mobile"
     },
     "web": {
       "output": "static",
@@ -33,9 +34,9 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#0a1128",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#0a1128"
           }
         }
       ]
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0e3556b9-66f4-4eb7-b39f-665be4eb84d3"
+      }
     }
   }
 }
