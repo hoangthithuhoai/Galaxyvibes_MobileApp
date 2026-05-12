@@ -117,22 +117,43 @@ npx expo start
 
 ```
 
-##  Hình ảnh chạy ứng dụng
+## Hình ảnh chạy ứng dụng
 
-### Màn hình splash:<img src="./g10.jpg" alt="Demo App3" width="300">
-### Màn hình onboarding: <img src="./g9.jpg" alt="Demo App3" width="300">
-### Màn hình đăng ký: <img src="./g2.jpg" alt="Demo App2" width="300">
-### Màn hình đăng nhập: <img src="./g1.jpg" alt="Demo App1" width="300">
-### Màn hình trang chủ: <img src="./g3.jpg" alt="Demo App3" width="300">
-### màn hình tìm kiếm: <img src="./g11.jpg" alt="Demo App3" width="300">
-### Màn hình thêm bài viết:<img src="./g4.jpg" alt="Demo App3" width="300">
-### Màn hình thông báo: <img src="./g8.jpg" alt="Demo App3" width="300">
-### Màn hình trang cá nhân: <img src="./g5.jpg" alt="Demo App3" width="300">
-### Màn hình chọn đăng xuất: <img src="./g6.jpg" alt="Demo App3" width="300">
-### Màn hình chọn xóa bài viết: <img src="./g11.jpg" alt="Demo App3" width="300">
+### Màn hình splash:
+<img src="./g10.jpg" alt="Demo App3" width="300">
 
+### Màn hình onboarding:
+<img src="./g9.jpg" alt="Demo App3" width="300">
 
-## Link video demo:
+### Màn hình đăng ký:
+<img src="./g2.jpg" alt="Demo App2" width="300">
+
+### Màn hình đăng nhập:
+<img src="./g1.jpg" alt="Demo App1" width="300">
+
+### Màn hình trang chủ:
+<img src="./g3.jpg" alt="Demo App3" width="300">
+
+### Màn hình tìm kiếm:
+<img src="./g11.jpg" alt="Demo App3" width="300">
+
+### Màn hình thêm bài viết:
+<img src="./g4.jpg" alt="Demo App3" width="300">
+
+### Màn hình thông báo:
+<img src="./g8.jpg" alt="Demo App3" width="300">
+
+### Màn hình trang cá nhân:
+<img src="./g5.jpg" alt="Demo App3" width="300">
+
+### Màn hình chọn đăng xuất:
+<img src="./g6.jpg" alt="Demo App3" width="300">
+
+### Màn hình chọn xóa bài viết:
+<img src="./g11.jpg" alt="Demo App3" width="300">
+
+### Link video demo: https://drive.google.com/drive/folders/1B-onWVqTnmCkVNzn7PPx5G3s7bSjpOWW?usp=sharing
+
 
 - Backend API (Render): https://galaxyvibes-api.onrender.com
 - Swagger UI: https://galaxyvibes-api.onrender.com/swagger
