@@ -1,20 +1,19 @@
 
 #  Galaxyvibes – Mạng xã hội “Bắt sóng tần số”
 
-**Tên đề tài:** Xây dựng ứng dụng Galaxyvibes – Nền tảng kết nối những tâm hồn đồng điệu trong vũ trụ số
+**Tên đề tài:** Xây dựng ứng dụng mạng xã hội Galaxyvibes – Nền tảng kết nối những tâm hồn đồng điệu trong vũ trụ số
 
 ---
 
 ## Giới thiệu hệ thống
 
-Galaxyvibes là một mạng xã hội sáng tạo lấy cảm hứng từ vũ trụ. Mỗi bài đăng (dòng tâm trạng, suy nghĩ) được hình dung như một **vì sao** – được phóng lên không gian, mang màu sắc và tần số riêng. Người dùng có thể:
+Galaxyvibes là một mạng xã hội sáng tạo lấy cảm hứng từ vũ trụ. Mỗi bài đăng (dòng tâm trạng, suy nghĩ) được hình dung như một vì sao – được phóng lên không gian, mang màu sắc và tần số riêng. Người dùng có thể:
 
 - Viết blog ngắn (tâm trạng, “tần số”) kèm ảnh.
 - Thả sao (like), bình luận và lưu bài viết yêu thích.
 - Theo dõi những tâm hồn đồng điệu.
 - Khám phá vũ trụ 3D với các vì sao tương tác (kéo, zoom, chạm để xem chi tiết).
 - Nhận thông báo khi có người thả sao, bình luận hoặc theo dõi.
-- Admin quản trị hệ thống (thống kê, kiểm duyệt bài viết, xuất báo cáo Excel).
 
 Hệ thống bao gồm:
 - **Backend API:** ASP.NET Core Web API, xác thực JWT, cơ sở dữ liệu SQLite.
@@ -22,7 +21,7 @@ Hệ thống bao gồm:
 
 ---
 
-## 👥 Danh sách thành viên
+## Danh sách thành viên
 
 - **Hoàng Thị Thu Hoài** – MSSV: 23810310297
 - **Vũ Trọng Hà Sơn** – MSSV: 23810310286
@@ -31,8 +30,8 @@ Hệ thống bao gồm:
 
 ## Phân công nhiệm vụ
 
-- **Hoàng Thị Thu Hoài** Thiết kế kiến trúc backend, xây dựng API (xác thực, CRUD bài viết, like, comment, follow, thông báo), phân quyền Admin, cấu hình database SQLite, deploy server.Giúp đỡ fix lỗi phần frontend, kiểm thử, quay video demo.
-- **Vũ Trọng Hà Sơn:** Phát triển giao diện mobile (đăng nhập, đăng ký, bảng tin, tạo bài, tìm kiếm, thông báo, profile, chế độ 3D), tích hợp API, viết tài liệu. Giúp đỡ hỗ trợ fix lỗi phần backend.
+- **Hoàng Thị Thu Hoài** Thiết kế kiến trúc backend, xây dựng API (xác thực, CRUD bài viết, like, comment, follow, thông báo), phân quyền admin, cấu hình database SQLite, deploy server.Giúp đỡ fix lỗi phần frontend, kiểm thử, quay video demo.
+- **Vũ Trọng Hà Sơn:** Phát triển giao diện mobile (đăng nhập, đăng ký, bảng tin, tạo bài, tìm kiếm, thông báo, profile, chế độ 3D), tích hợp API, viết tài liệu báo cáo. Giúp đỡ hỗ trợ fix lỗi phần backend, kiểm thử.
 
 ---
 
@@ -152,10 +151,11 @@ npx expo start
 ### Màn hình chọn xóa bài viết:
 <img src="./g11.jpg" alt="Demo App3" width="300">
 
-### Link video demo: https://drive.google.com/drive/folders/1B-onWVqTnmCkVNzn7PPx5G3s7bSjpOWW?usp=sharing
 
+- Link video demo: https://drive.google.com/drive/folders/1B-onWVqTnmCkVNzn7PPx5G3s7bSjpOWW?usp=sharing
 
 - Backend API (Render): https://galaxyvibes-api.onrender.com
+
 - Swagger UI: https://galaxyvibes-api.onrender.com/swagger
 - Nếu không truy cập được, có thể server đang khởi động lại (cold start). Vui lòng chờ vài giây và thử lại.
 
