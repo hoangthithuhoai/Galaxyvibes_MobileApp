@@ -152,12 +152,16 @@ npx expo start
 ### Màn hình chọn xóa bài viết:
 <img src="./g11.jpg" alt="Demo App3" width="300">
 
+### Màn hình không gian 3D:
+<img src="./g12.jpg" alt="Demo App3" width="300">
 ### Link video demo: https://drive.google.com/drive/folders/1B-onWVqTnmCkVNzn7PPx5G3s7bSjpOWW?usp=sharing
 
 
 - Backend API (Render): https://galaxyvibes-api.onrender.com
 - Swagger UI: https://galaxyvibes-api.onrender.com/swagger
 - Nếu không truy cập được, có thể server đang khởi động lại (cold start). Vui lòng chờ vài giây và thử lại.
+
+### Link thiết kế figma: https://www.figma.com/design/24QYsDmWfvLFdSKs9U7VsN/Sans-titre?node-id=0-1&t=5TtVFt57FgjmWaOv-1
 
 
 
